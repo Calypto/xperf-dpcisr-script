@@ -1,5 +1,5 @@
 # xperf-dpcisr-script
-This batch script is made for the Windows 7 version of xperf. It runs xperf for 5 seconds and records base+interrupt+dpc, then generates a report.
+This batch script is made for the Windows 7 version of xperf. It runs xperf for 5 seconds and records base+interrupt+dpc, then generates a report. Run as administrator.
 
 Inspired by mbk1969's post here:
 https://forums.guru3d.com/threads/simple-way-to-trace-dpcs-and-isrs.423884/
