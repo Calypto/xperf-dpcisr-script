@@ -6,8 +6,8 @@ echo(
 echo Recording...
 xperf -on base+interrupt+dpc
 timeout 5
-xperf -stop
-xperf -i c:\kernel.etl -o c:\report.txt -a dpcisr
+xperf -d c:\trace.etl
+xperf -i c:\trace.etl -o c:\report.txt -a dpcisr
 echo(
 echo Done.
 echo(
